@@ -17,7 +17,6 @@ body {
     font-size:1.125rem; /* 18px, where 1rem = 16px */
     line-height:1.3;
     background-color:var(--main-bg-color);
-    width:90%;
 }
 h1 {
     text-align:center;
@@ -25,6 +24,7 @@ h1 {
 table {
     width:100%;
     text-align:center;
+    white-space:nowrap;
 }
 table th[rowspan] {
     writing-mode: vertical-rl;
