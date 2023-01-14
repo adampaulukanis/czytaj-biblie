@@ -37,7 +37,7 @@ table, th, td {
     text-align:center;
 }
 th[rowspan] {
-    background: green;
+    background: linear-gradient(to right, black, blue);
     font-size: 1rem;
     color: white;
     text-transform: uppercase;
@@ -58,3 +58,15 @@ thead tr th{
     top:-0.2rem;
     padding:1rem;
 }
+.january    { background: linear-gradient(to right, red, blue) !important; }
+.february   { background: linear-gradient(to right, purple, yellow) !important; }
+.march      { background: linear-gradient(to right, blue, white) !important; }
+.april      { background: linear-gradient(to right, white, red) !important; }
+.may        { background: linear-gradient(to right, green, yellow) !important; }
+.june       { background: linear-gradient(to right, purple, white) !important; }
+.july       { background: linear-gradient(to right, red, green) !important; }
+.august     { background: linear-gradient(to right, green, orange) !important; }
+.september  { background: linear-gradient(to right, brown, blue) !important; }
+.october    { background: linear-gradient(to right, blue, pink) !important; }
+.november   { background: linear-gradient(to right, yellow, red) !important; }
+.december   { background: linear-gradient(to right, blue, indigo) !important; }
