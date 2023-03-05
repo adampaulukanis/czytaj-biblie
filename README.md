@@ -37,4 +37,4 @@ Kiedyś myślałem, błędnie, że Stary Testament to "oko za oko", ale nie! by�
 ## Hebrajczyków / Żydów 11, 6
 
     A bez wiary nie można podobać się Bogu; albowiem ten, co przystępuje do Boga, wierzyć musi, że jest Bóg, a że nagrodę daje
-tym, którzy go szukają.
+    tym, którzy go szukają.
