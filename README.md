@@ -1,9 +1,9 @@
-Codziennie chcę czytać jeden rozdział Biblii.
+# Codziennie chcę czytać jeden rozdział Biblii.
 
 To jest tak zwany Zwycięski Plan Czytania Biblii. Mam nadzieję, że nikt nie
 będzie miał mi za złe użycie tego.
 
-W Starym Testamencie w 3. Mojżeszowej (Kapłańskiej) w 19 rozdziale wersy:
+## W Starym Testamencie w 3. Mojżeszowej (Kapłańskiej) w 19 rozdziale wersy
 
 9. Gdy będziecie żąć zboża ziemi waszej, nie będziesz do końca pola twego wyrzynał, ani pozostałych kłosów żniwa twego
 zbierać będziesz.
@@ -33,3 +33,8 @@ sam siebie; boście i wy przychodniami byli w ziemi Egipskiej; Jam Pan, Bóg was
 wasz, którym was wywiódł z ziemi Egipskiej.
 
 Kiedyś myślałem, błędnie, że Stary Testament to "oko za oko", ale nie! byłem w błędzie.
+
+## Hebrajczyków / Żydów 11, 6
+
+A bez wiary nie można podobać się Bogu; albowiem ten, co przystępuje do Boga, wierzyć musi, że jest Bóg, a że nagrodę daje
+tym, którzy go szukają.
