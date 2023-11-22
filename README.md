@@ -38,3 +38,11 @@ Kiedyś myślałem, błędnie, że Stary Testament to "oko za oko", ale nie! by�
 
     A bez wiary nie można podobać się Bogu; albowiem ten, co przystępuje do Boga, wierzyć musi, że jest Bóg, a że nagrodę daje
     tym, którzy go szukają.
+
+## Zacharyjasza 7
+
+    9 Tak powiedział Pan zastępów, mówiąc: Sprawiedliwie sądźcie, a miłosierdzie i litość pokazujcie każdy nad bliźnim swoim;
+    10 A wdowy i sieroty, i przychodnia, i ubogiego nie uciskajcie, i złego jeden przeciwko drugiemu nie myślcie w sercu swojem.
+    11 Ale nie chcieli dbać; i obrócili się tyłem, a uszy swe zatulili, aby nie słuchali.
+    12 Serca też swe zatwardzili jako dyjament, aby nie słuchali zakonu tego i słów, które posyłał Pan zastępów duchem swoim przez proroków przeszłych, skąd przyszedł wielki gniew od Pana zastępów.
+    13 Bo jako oni, gdy ich wołano, nie słuchali, tak też, gdy oni wołali, nie wysłuchałem, mówi Pan zastępów.

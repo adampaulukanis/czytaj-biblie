@@ -1,10 +1,11 @@
 @charset "UTF-8";
-:root {
-    --main-bg-color: white;
-}
+
+@import url("https://fonts.googleapis.com/css?family=Lato:600,600i,700");
+
 html {
     font-size: 100%;
     box-sizing: border-box;
+    scroll-behavior:smooth;
 }
 *,
 *::before,
@@ -14,63 +15,129 @@ html {
 body {
     margin:0 auto;
     padding:0;
-    font-size:1.125rem; /* 18px, where 1rem = 16px */
-    line-height:1.3;
-    background-color:var(--main-bg-color);
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #191919;
+    color: #eee;
+    font-family: Lato, sans-serif;
+    line-height: 1.4;
+    font-size: 90%;
+    margin: 2rem auto;
+    width: 90%;
 }
+
 h1 {
     text-align:center;
 }
-table {
-    width:100%;
-    text-align:center;
-    white-space:nowrap;
+
+h2 {
+    padding:0.3rem 1rem;
+    border-bottom:0.1rem solid white;
 }
-table th[rowspan] {
-    writing-mode: vertical-rl;
+nav {
+    display:flex;
+    align-items:center;
 }
-table, th, td {
-    border:3px solid black;
-    border-collapse:collapse;
+
+nav ol {
+    justify-content:space-around;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items:center;
+    flex-grow:1;
+    flex-shrink:1;
+    align-content:stretch;
+    list-style:none;
+    margin:0;
+    background:deepskyblue;
+    flex-basis:auto;
 }
-.day-of-month {
-    text-align:center;
+nav ol li {
 }
-.day:nth-child(7n+1) {
-    background:#e1e1b6;
-}
-th[rowspan] {
-    background: linear-gradient(to right, black, blue);
-    font-size: 1rem;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-td {
-}
-tr.day:hover a{
-    background:#369;
-    color:#fff;
-}
-td a {
+a {
+    text-decoration:none;
     display:block;
+    color:black;
+    padding:1em;
 }
-thead tr th{
-    background:#369;
-    position:sticky;
-    top:-0.2rem;
+nav ol li a:hover {
+    background:#1565c0;
+}
+
+@media all and (max-width:600px) {
+    nav {
+        align-items:stretch;
+        text-align:center;
+        padding:0;
+        margin:0;
+    }
+    nav, nav ol {
+        flex-direction:column;
+        padding:0;
+    }
+
+    nav ol li a {
+        background: red;
+    }
+
+    section {
+        background:black;
+    }
+}
+
+.dzisiaj {
+    background:black;
+}
+
+main {
+    display:flex;
+    flex-flow:row wrap;
+    outline:1px solid red;
+}
+
+main > * {
+    flex:1 100%; /* all items to be 100% */
+}
+
+section {
     padding:1rem;
+    background:grey;
+    margin:1rem;
 }
-.january    { background: linear-gradient(to right, red, blue) !important; }
-.february   { background: linear-gradient(to right, purple, yellow) !important; }
-.march      { background: linear-gradient(to right, blue, white) !important; }
-.april      { background: linear-gradient(to right, white, red) !important; }
-.may        { background: linear-gradient(to right, green, yellow) !important; }
-.june       { background: linear-gradient(to right, purple, white) !important; }
-.july       { background: linear-gradient(to right, red, green) !important; }
-.august     { background: linear-gradient(to right, green, orange) !important; }
-.september  { background: linear-gradient(to right, brown, blue) !important; }
-.october    { background: linear-gradient(to right, blue, pink) !important; }
-.november   { background: linear-gradient(to right, yellow, red) !important; }
-.december   { background: linear-gradient(to right, blue, indigo) !important; }
+
+section ol {
+    counter-reset:my-awesome-counter;
+    list-style:none;
+    padding-left:2rem;
+}
+
+section ol li {
+    margin:0 0 1rem 0;
+    counter-increment:my-awesome-counter;
+    position:relative;
+}
+
+section ol li::before {
+    content: counter(my-awesome-counter);
+    color: #fcd000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    --size: 32px;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    transform: rotate(-10deg);
+    background: black;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 1px 0 #999;
+}
+section ol li:hover {
+    background:orange;
+}
+a[href="#top"] {
+    padding:1em;
+    background:yellow;
+}
