@@ -46,3 +46,8 @@ Kiedyś myślałem, błędnie, że Stary Testament to "oko za oko", ale nie! by�
     11 Ale nie chcieli dbać; i obrócili się tyłem, a uszy swe zatulili, aby nie słuchali.
     12 Serca też swe zatwardzili jako dyjament, aby nie słuchali zakonu tego i słów, które posyłał Pan zastępów duchem swoim przez proroków przeszłych, skąd przyszedł wielki gniew od Pana zastępów.
     13 Bo jako oni, gdy ich wołano, nie słuchali, tak też, gdy oni wołali, nie wysłuchałem, mówi Pan zastępów.
+
+## Zacharyjasza 8
+
+    16 Teć są rzeczy, które czynić będziecie: Prawdę mówcie każdy z bliźnim swoim, prawy i spokojny sąd czyńcie w bramach waszych;
+    17 A jeden drugiemu nic złego nie myślcie w sercach waszych, a w krzywoprzysięstwie się nie kochajcie; bo to wszystko jest, czego nienawidzę, mówi Pan.
